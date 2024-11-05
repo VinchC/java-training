@@ -11,7 +11,7 @@ import java.util.List;
 public class TestController {
     @GetMapping
     public List<String> getList(){
-        return List.of("Hello", "world");
+        return List.of("Hello", "Poooooooooooo");
     };
     @GetMapping(path = "string")
     public String getString(){
